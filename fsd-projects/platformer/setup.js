@@ -2,9 +2,9 @@
 const walkAcceleration = 2.5; // how much is added to the speed each frame
 const gravity = 0.5; // how much is subtracted from speedY each frame
 const friction = 1.5; // how much the player is slowed each frame
-const maxSpeed = 8; // maximum horizontal speed, not vertical
+const maxSpeed = 9; // maximum horizontal speed, not vertical
 const playerJumpStrength = 12; // this is subtracted from the speedY each jump
-const projectileSpeed = 8; // the speed of projectiles
+const projectileSpeed = 15; // the speed of projectiles
 let shouldDrawGrid = false;
 let gridMade = false;
 
@@ -96,7 +96,7 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "images/collectables/database.png" },
+  database: { image: "https://static.wikia.nocookie.net/deltarune/images/9/93/Pipis_battle_static.png/revision/latest/smart/width/250/height/250?cb=20210925180715" },
   diamond: { image: "images/collectables/diamond-head.png" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
