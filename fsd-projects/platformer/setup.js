@@ -96,7 +96,7 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "https://static.wikia.nocookie.net/deltarune/images/9/93/Pipis_battle_static.png/revision/latest/smart/width/250/height/250?cb=20210925180715" },
+  database: { image: "file:///E:/Pictures%20from%20phone%20that%20I%20wasn't%20able%20to%20put%20on%20the%20SD%20Card/YAS.jpg" },
   diamond: { image: "images/collectables/diamond-head.png" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
